@@ -2,7 +2,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 
 # App title
-st.title('🦜🔗 Quickstart App')
+st.title('SC Starter Kit App')
 
 # Check for OpenAI API Key in Streamlit's secrets
 if 'OPENAI_API_KEY' in st.secrets:
